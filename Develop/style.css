@@ -1,8 +1,29 @@
-h1 {
+:root {
+    --black: black;
+    --white: white;
+    --darkRed: rgb(116,23,23);
+}
+
+body {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+a {
+    color: var(--darkRed);
+}
+
+body h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin: 25px;
+    padding: 15px;
+    border-style: dashed;
+    border-color: var(--darkRed);
 }
 
 p {
@@ -10,6 +31,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    color: var(--white);
 }
 
 .timer {
@@ -18,6 +40,7 @@ p {
     align-items: flex-end;
     justify-content: flex-end;
 }
-.start {
-    text-align: center;
+.start-btn {
+    color: var(--white);
+    background-color: var(--darkRed);
 }
