@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: var(--black);
-    color: var(--white);
+    background-color: var(--white);
+    color: var(--black);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
 }
@@ -31,7 +31,7 @@ p {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    color: var(--white);
+    color: var(--black);
 }
 
 .timer {
@@ -41,6 +41,6 @@ p {
     justify-content: flex-end;
 }
 .start-btn {
-    color: var(--white);
+    color: var(--black);
     background-color: var(--darkRed);
 }
