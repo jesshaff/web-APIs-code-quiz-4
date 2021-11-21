@@ -8,7 +8,7 @@ var submitBtn = document.querySelector('#submit');
 var feedbackEl = document.querySelector("#feedback");
 
 var currentQuestionIn = 0;
-var time = questions.length * 15;
+var time = questions.length * 24;
 var timerId;
 
 function startQuiz() {
@@ -54,7 +54,7 @@ function getQuestion() {
 function questionClick() {
     // check if question answered incorrectly
     if (this.value !== questions[currentQuestionIn].answer) {
-        time -= 10;
+        time -= 25;
 
         if(time < 0) {
             time = 0;
