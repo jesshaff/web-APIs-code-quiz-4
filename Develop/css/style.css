@@ -112,3 +112,11 @@ justify-content: center;
     padding: 5px;
     font-size: 16px;
 }
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-left: 39%;
+    padding-bottom: 2%;
+    color: var(--darkRed);
+}
