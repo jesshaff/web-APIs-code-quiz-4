@@ -78,7 +78,9 @@ function questionClick() {
     }, 1000);
 
     currentQuestionIn++;
-
+    console.log(currentQuestionIn);
+    console.log(questions.length);
+    
     if (currentQuestionIn === questions.length) {
         quizEnd();
     } else {

@@ -11,8 +11,27 @@ body {
     text-align: center;
 }
 
-a {
-    color: var(--darkRed);
+.scores {
+    margin: auto;
+    width: auto;
+    padding: 2%;
+    background-color: var(--darkRed);
+}
+
+.scores a {
+    color: var(--white);
+}
+
+.timer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin: auto;
+    width: auto;
+    text-transform: uppercase;
+    padding-top: 2%;
+    font-size: x-large;
 }
 
 body h1 {
@@ -34,13 +53,17 @@ p {
     color: var(--black);
 }
 
-.timer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-end;
-    justify-content: flex-end;
-}
 .start-btn {
     color: var(--black);
     background-color: var(--darkRed);
+}
+
+.choices {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.hidden {
+    display: none;
 }
