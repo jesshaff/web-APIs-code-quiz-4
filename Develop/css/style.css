@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+ol {
+    list-style: none;
+    font-size: 20px;
+}
+
 .scores {
     margin: auto;
     width: auto;
@@ -34,7 +39,7 @@ body {
     font-size: x-large;
 }
 
-body h1 {
+h1 {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -53,9 +58,12 @@ p {
     color: var(--black);
 }
 
-.start-btn {
-    color: var(--black);
+#start {
+    color: var(--white);
     background-color: var(--darkRed);
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
 }
 
 .choices {
@@ -81,3 +89,26 @@ justify-content: center;
     background-color: var(--darkRed);
     color: var(--white);
  }
+
+ #submit {
+    color: var(--white);
+    background-color: var(--darkRed);
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#back {
+    color: var(--white);
+    background-color: var(--darkRed);
+    margin: auto;
+    padding: 5px;
+    font-size: 16px;
+}
+#clear {
+    color: var(--white);
+    background-color: var(--darkRed);
+    margin: auto;
+    padding: 5px;
+    font-size: 16px;
+}
