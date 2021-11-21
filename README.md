@@ -1,7 +1,6 @@
 # web-APIs-code-quiz-4
 
 ## 04 Web API's: Code Quiz
-<br>
 
 ### Description: 
 #### This homework is a code quiz which was completed by Jessica Haff. The purpose of this homework was to write HTML, CSS and JavaScript code to make a timed code quiz that saves and displays the users highscores.
@@ -34,9 +33,12 @@ THEN I can save my initials and my score
 ### Screenshots
 ## -Working Code-
 ### Landing Page
-![Landing Page]()
+![Landing Page](Assets/landing-page.png)
 ### Quiz
-![Quiz]()
+![Quiz](Assets/quiz.png)
+
+### Final Score/Enter Initials
+![Highscores](Assets/final-score-initials.png)
 
 ### Highscores
-![Highscores]()
+![Highscores](Assets/highscores-page.png)
